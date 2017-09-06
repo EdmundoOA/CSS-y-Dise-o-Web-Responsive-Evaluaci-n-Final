@@ -1,0 +1,196 @@
+@media screen and (max-width: 900px) {
+  @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+  *{
+    font-family: 'Dancing Script', cursive;
+  }
+  html{
+    display: block;
+    margin: 4px 10px 10px 10px;
+  }
+  header{
+    border-radius: 2px 2px 0px 0px;
+    height: 100%;
+    background-color: #5b7989;
+  }
+  body{
+    background-color: #02010a;
+    width: 100%;
+    height: 90%;
+    margin: auto;
+  }
+  footer{
+    background-color: #C6d5c5;
+    height: 100%;
+    border-radius: 0px 0px 2px 2px;
+  }
+  h1{
+    color: #fff;
+    text-shadow: 2px 2px 2px #02010a;
+    float: none;
+    padding-left: 0px;
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    padding-top: 10px;
+  }
+  h2{
+    margin: auto;
+    padding-top: 10px;
+  }
+  p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+  }
+  a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+  }
+  ul{
+    text-align: center;
+    margin: auto;
+    padding: inherit;
+  }
+  li > a{
+    color: #fff;
+  }
+  .actual{
+    text-decoration: none;
+  }
+  li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    float: none;
+    margin: auto;
+  }
+  img{
+    margin: auto;
+    display: block;
+    height: 200px;
+    width: auto;
+    box-shadow: 2px 2px 2px #02010a;
+  }
+  .imagencentral{
+    background-color: #82c3a6;
+    padding: 15px;
+    height: 200px;
+  }
+  .imagencentral > img{
+    height: 200px;
+    width: auto;
+  }
+  .contenido{
+    width: 100%;
+    background-color: #d5c75f;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px 0px 15px 0px;
+  }
+
+  div [class*="bloque"]{
+    min-height: 250px;
+    flex: 1 2 100%;
+  }
+  .bloque1 {
+    background-color: #d5c75f;
+    order: 1;
+  }
+  .bloque1 > img{
+    border-style: solid;
+    border-width: 1px;
+  }
+  .bloque1 > img:hover{
+    transform: rotate(10deg);
+    transition: 1s;
+    box-shadow: 2px 2px 2px #82c3a6;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .bloque2 {
+    background-color: #d5c75f;
+    order: 2;
+  }
+  .bloque2 > img{
+    border-style: solid;
+    border-width: 1px;
+  }
+  .bloque2 > img:hover{
+    transform: translate(20px,-5px);
+    transition: 1s;
+    box-shadow: 2px 2px 2px #82c3a6;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .textoabajo{
+    text-align: center;
+  }
+  .contenedor{
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+  }
+  div [class*="col"]{
+    min-height: 130px;
+    flex: 1 2 100%;
+  }
+  .col1 {
+    order: 1;
+  }
+  .col2 {
+    order: 2;
+  }
+  .col3 {
+    order: 3;
+  }
+  .col4 {
+    order: 4;
+  }
+  .contenedorimagenes{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #d5c75f;
+    padding: 15px 0px 15px 0px;
+  }
+  .contenedorimagenes > div > img{
+    height: 200px;
+    width: 300px;
+  }
+  div [class*="imagen"]{
+    min-height: 220px;
+    flex: 1 2 100%;
+  }
+  .imagen1 {
+    order: 2;
+    filter: blur(10px);
+  }
+  .imagen2 {
+    order: 3;
+    filter: grayscale(100%);
+  }
+  .imagen3 {
+    order: 4;
+    filter: sepia(90%);
+  }
+  .imagen4 {
+    order: 5;
+    filter: grayscale(100%);
+  }
+  .imagen5 {
+    order: 6;
+  }
+  .imagen6 {
+    order: 7;
+    filter: grayscale(100%);
+  }
+  .renglon{
+    height: 10px;
+    background-color: #d5c75f;
+  }
+
+}
